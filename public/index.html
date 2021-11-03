@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QRCode Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&family=Public+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/styles/main.css">
+</head>
+<body>
+    <main class="main">
+        <div class="main__container">
+            <div class="main__qrcodeholder">
+                <canvas id="qrcode"></canvas>
+                <div class="qrcode__actions">
+                    <button type="button" id="printqr">Print</button>
+                </div>
+            </div>
+            <form class="main__qrcodeform" id="generateqr" autocomplete="off">
+                <h2>Generate QR Code</h2>
+                <div class="qrcode__formgroup">
+                    <label for="hastag">Hastag</label>
+                    <input type="text" name="hastag" placeholder="enter a hastag"/>
+                </div>
+                <div class="qrcode__formgroup">
+                    <label for="socialmediaplatforms">Choose a Platform</label>
+                    <select name="socialmediaplatforms">
+                        <option value="facebook">Facebook</option>
+                        <option value="instagram">Instagram</option>
+                    </select>
+                </div>
+                <div class="qrcode__formgroup">
+                    <button type="submit">Generate QRCode</button>
+                </div>
+                <div class="qrcode__formgroup">
+                    <button type="reset">Reset QRCode</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <script src="./assets/scripts/bundle.js"></script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+/*!*************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[1].use[1]!./node_modules/postcss-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/styles/main.scss ***!
+  \*************************************************************************************************************************************************************************************/
+html {
+  height: 100%;
+  box-sizing: border-box;
+  font-size: 100%; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden;
+  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Public Sans', sans-serif;
+  font-weight: 400;
+  color: #000000; }
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+  padding: 0; }
+
+.main {
+  width: 100%;
+  height: 100%;
+  background-color: #f5f3f4; }
+  .main__container {
+    padding: 10px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .main__qrcodeholder {
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px; }
+    .main__qrcodeholder .qrcode__actions button {
+      width: 100%;
+      height: 40px;
+      border: none;
+      outline: none;
+      font-size: 16px;
+      background-color: #82c0cc;
+      color: #2d3142;
+      border-radius: 10px;
+      cursor: pointer; }
+  .main__qrcodeform {
+    padding-left: 5px;
+    padding-right: 5px; }
+    .main__qrcodeform h2 {
+      text-align: center;
+      color: #2d3142;
+      margin: 10px 0px 20px;
+      font-size: 25px; }
+    .main__qrcodeform .qrcode__formgroup {
+      margin: 15px 0px; }
+      .main__qrcodeform .qrcode__formgroup label {
+        font-size: 16px;
+        color: #2d3142; }
+      .main__qrcodeform .qrcode__formgroup input[type=text] {
+        margin-top: 5px;
+        display: block;
+        width: 100%;
+        padding: 10px;
+        outline: none;
+        border: 1px solid #82c0cc;
+        border-radius: 5px; }
+      .main__qrcodeform .qrcode__formgroup select {
+        margin-top: 5px;
+        display: block;
+        width: 100%;
+        padding: 10px;
+        outline: none;
+        border: 1px solid #82c0cc;
+        border-radius: 5px; }
+      .main__qrcodeform .qrcode__formgroup button {
+        width: 100%;
+        height: 40px;
+        border: none;
+        outline: none;
+        font-size: 16px;
+        background-color: #82c0cc;
+        color: #2d3142;
+        border-radius: 10px;
+        cursor: pointer; }
+

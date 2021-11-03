@@ -1,0 +1,90 @@
+@import 'reset.scss';
+@import 'variables.scss';
+
+.main {
+    width: 100%;
+    height: 100%;
+    background-color: $background;
+
+    &__container {
+        padding: 10px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__qrcodeholder{
+        text-align: center;
+        padding-left: 5px;
+        padding-right: 5px;
+
+        .qrcode__actions {
+
+            button {
+                width: 100%;
+                height: 40px;
+                border: none;
+                outline: none;
+                font-size: 16px;
+                background-color: $highlight;
+                color: $text;
+                border-radius: 10px;
+                cursor: pointer;
+            }
+        }
+    }
+
+    &__qrcodeform{
+        padding-left: 5px;
+        padding-right: 5px;
+
+        h2 {
+            text-align: center;
+            color: $text;
+            margin: 10px 0px 20px;
+            font-size: 25px;
+        }
+
+        .qrcode__formgroup{
+            margin: 15px 0px;
+
+            label {
+                font-size: 16px;
+                color: $text;
+            }
+
+            input[type=text] {
+                margin-top: 5px;
+                display: block;
+                width: 100%;
+                padding: 10px;
+                outline: none;
+                border: 1px solid $highlight;
+                border-radius: 5px;
+            }
+
+            select {
+                margin-top: 5px;
+                display: block;
+                width: 100%;
+                padding: 10px;
+                outline: none;
+                border: 1px solid $highlight;
+                border-radius: 5px;
+            }
+
+            button {
+                width: 100%;
+                height: 40px;
+                border: none;
+                outline: none;
+                font-size: 16px;
+                background-color: $highlight;
+                color: $text;
+                border-radius: 10px;
+                cursor: pointer;
+            }
+        }
+    }
+}
